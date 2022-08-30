@@ -3,6 +3,7 @@ import "./styles.css";
 import UseStateExam from "./exam/UseStateExam";
 import UseInputExam from "./exam/UseInputExam";
 import UseTabsExam from "./exam/UseTabsExam";
+import UseEffectExam from "./exam/UseEffectExam";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <UseStateExam />
       <UseInputExam />
       <UseTabsExam />
+      <UseEffectExam />
     </div>
   );
 }
